@@ -4,7 +4,7 @@ project(utfcpp_iostream)
 set(CMAKE_CXX_STANDARD 20)
 
 include( FetchContent )
-set( FETCHCONTENT_UPDATES_DISCONNECTED ON )
+set( FETCHCONTENT_UPDATES_DISCONNECTED OFF)
 
 FetchContent_Declare(
         utf_range
